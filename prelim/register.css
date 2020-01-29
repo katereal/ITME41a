@@ -1,0 +1,43 @@
+*{
+	background-color:black;
+}
+@media(min-width: 400px){
+.btn{
+	pposition:relative;
+	padding-right:10px;
+	width:40%;
+	transform:translate(5px,90px);
+}
+.form-group{
+	position:relative;
+	color:orange;
+	width:80%;
+	
+	text-align:left;
+	padding-left:20px;
+	
+	padding-right:30px;
+	top:50px;
+	bottom:50px;
+	transform:translate(70px,50px);
+}
+@media only screen and (min-width: 961px) {
+.btn{
+	pposition:relative;
+	padding-right:30px;
+	width:20%;
+	transform:translate(60px,90px);
+}
+.form-group{
+	position:relative;
+	color:orange;
+	width:60%;
+	
+	text-align:left;
+	padding-left:0;
+	padding-right:80px;
+	top:50px;
+	bottom:50px;
+	transform:translate(280px,40px);
+}
+}
