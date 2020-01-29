@@ -1,0 +1,88 @@
+.fakeimg {
+    height: 560px;
+    background: #aaa;
+  }
+.img1 {
+    height: 400px;
+   
+  }
+  .container {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-inverse {
+    background-color: #343a40;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.nav-link {
+    background-color: #343a40;
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    border-top-color: rgb(40, 167, 69);
+    border-right-color: rgb(40, 167, 69);
+    border-bottom-color: rgb(40, 167, 69);
+    border-left-color: rgb(40, 167, 69);
+}
+@media(min-width: 400px){
+.btn {
+    display: inline-block;
+    font-weight: 400;
+	background-color: #343a40;
+	float: left;
+}
+.form-control{
+	float: left;
+}
+}
+@media only screen and (min-width: 961px){
+.btn {
+    display: inline-block;
+    font-weight: 400;
+	background-color: #343a40;
+	text-align: center;
+    vertical-align: middle;
+	float: right;
+}
+.form-control{
+	float: right;
+}
+}
+.btn1 {
+    display: inline-block;
+    font-weight: 400;
+	background-color: #343a40;
+	text-align: center;
+    vertical-align: middle;
+	float: center;
+}
+@media (prefers-reduced-motion: reduce){
+.form-control {
+    transition: none;
+	height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+}}
