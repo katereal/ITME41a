@@ -1,0 +1,158 @@
+.fa-bars{
+	float:right;
+	font-size:30px;
+	
+	transform: translate(-50px, -40px);
+}
+.navbar-brand{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+position: absolute;
+color: #000000;
+}
+h1{
+	position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height:15px;
+letter-spacing:1px;
+transform: translate(130px, -50px);
+color: #FF473A;
+}
+h4{
+	position: absolute;
+width: 96px;
+height: 10px;
+left: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 12px;
+
+align-items: center;
+
+color: #979797;
+}
+h2{
+	position: absolute;
+width: 160px;
+height: 72px;
+left: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+h3{
+	position: absolute;
+width: 253px;
+height: 36px;
+left: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+transform: translate(0px, 60px);
+color: #FF473A;
+
+}
+h5{
+	position: absolute;
+width: 48px;
+height: 18px;
+left: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+transform: translate(0px, 100px);
+color: #979797;
+}
+.item{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+h6{
+	position: fixed;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 8px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+transform: translate(170px, 0px);
+color: #979797;
+
+}
+.collapsible {
+  
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transform: translate(10px, 50px);
+}
+.active, .collapsible:hover {
+  background-color: #f1f1f1
+}
+
+.content {
+  padding: 0px 45px;
+  display: none;
+  overflow:hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EXHIBITION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/fca9623de7.js" ></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="exhi.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">The</br>Art</br>Museum</a>
+		
+
+   </div>
+   </div>
+   
+</nav>
+  <i class="fas fa-bars"></i> 
+  <h1>EXHIBITION PREVIEW</h1>
+  
+<div class="container-fluid">
+</br>
+ <h4>RETROSPECTIVE</h4>
+ <h2>DOROTHEA</br> LANGE</h2>
+<h3>OCTOBER 15 - MARCH 18</h3>
+<h5>FLOOR 3</h5>
+<div class="container">
+    </br></br></br></br></br></br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+      <div class="item active">
+        <img src="house.jpg" >
+      </div>
+
+      <div class="item">
+        <img src="house.jpg" >
+      </div>
+    
+      <div class="item">
+        <img src="house.jpg">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<h6>Abandoned Dust Bowl Home” </br>Gelatin silver print </br>about 1935 - 1940</br></h6>
+
+<button type="button" class="collapsible">Biography</button>
+<div class="content">
+  <p>Dorothea Lange (May 26, 1895 – October 11, 1965) was an influential American documentary photographer
+  and photojournalist, best known for her Depression-era work for the Farm Security Administration (FSA). Lange's photographs 
+  humanized the consequences of the Great Depression and influenced the development of documentary photography. Born of second generation German
+  immigrants on May 26, 1895, at 1041 Bloomfield Street, Hoboken, New Jersey,[1][2] Dorothea Lange was named Dorothea Margaretta Nutzhorn at birth.
+  She dropped her middle name and assumed her mother's maiden name after her father abandoned the family when she was 12 years old,
+  one of two traumatic incidents early in her life..</p>
+</div>
+
+
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
